@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="771" height="538" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="755" y="492" width="3" height="33" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="651" y="522" width="107" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="647" y="488" width="108" height="34" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="701" y="498">CMD_InventoryUse</text>
+	<line stroke="black" stroke-opacity="1" x1="647" y1="506" x2="755" y2="506" />
+	<line stroke="black" stroke-opacity="1" x1="647" y1="514" x2="755" y2="514" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="563" y="492" width="3" height="33" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="493" y="522" width="73" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="489" y="488" width="74" height="34" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="526" y="498">CMD_Attack</text>
+	<line stroke="black" stroke-opacity="1" x1="489" y1="506" x2="563" y2="506" />
+	<line stroke="black" stroke-opacity="1" x1="489" y1="514" x2="563" y2="514" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="399" y="490" width="3" height="33" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="341" y="520" width="61" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="337" y="486" width="62" height="34" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="368" y="496">CMD_Help</text>
+	<line stroke="black" stroke-opacity="1" x1="337" y1="504" x2="399" y2="504" />
+	<line stroke="black" stroke-opacity="1" x1="337" y1="512" x2="399" y2="512" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="656" y="244" width="3" height="125" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="410" y="366" width="249" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="406" y="240" width="250" height="126" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="531" y="250">&lt;&lt;interface&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="531" y="268">ICommand</text>
+	<line stroke="black" stroke-opacity="1" x1="406" y1="276" x2="656" y2="276" />
+	<line stroke="black" stroke-opacity="1" x1="406" y1="284" x2="656" y2="284" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="410" y="294">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="422" y="294">execute(cmd_type : enum, data : string) : bool</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="410" y="310">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="422" y="310">getPrefix() : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="410" y="326">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="422" y="326">getArgs() : int</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="410" y="342">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="422" y="342">valid() : bool</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="410" y="358">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="422" y="358">getHelpDesc() : string</text>
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="385" y1="485" x2="473" y2="374" />
+	<line stroke="#000000" stroke-opacity="1" x1="477" y1="370" x2="468" y2="370" />
+	<line stroke="#000000" stroke-opacity="1" x1="477" y1="370" x2="477" y2="378" />
+	<line stroke="#000000" stroke-opacity="1" x1="468" y1="370" x2="477" y2="378" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="528" y1="487" x2="529" y2="375" />
+	<line stroke="#000000" stroke-opacity="1" x1="530" y1="370" x2="523" y2="375" />
+	<line stroke="#000000" stroke-opacity="1" x1="530" y1="370" x2="535" y2="376" />
+	<line stroke="#000000" stroke-opacity="1" x1="523" y1="375" x2="535" y2="376" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="686" y1="487" x2="590" y2="374" />
+	<line stroke="#000000" stroke-opacity="1" x1="587" y1="370" x2="586" y2="378" />
+	<line stroke="#000000" stroke-opacity="1" x1="587" y1="370" x2="595" y2="370" />
+	<line stroke="#000000" stroke-opacity="1" x1="586" y1="378" x2="595" y2="370" />
+</g>
+</svg>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1536" height="680" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1256" y="232" width="3" height="33" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1154" y="262" width="105" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1150" y="228" width="106" height="34" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1203" y="238">GS_PlayerCreation</text>
+	<line stroke="black" stroke-opacity="1" x1="1150" y1="246" x2="1256" y2="246" />
+	<line stroke="black" stroke-opacity="1" x1="1150" y1="254" x2="1256" y2="254" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1232" y="370" width="3" height="33" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1158" y="400" width="77" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1154" y="366" width="78" height="34" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1193" y="376">GS_Inventory</text>
+	<line stroke="black" stroke-opacity="1" x1="1154" y1="384" x2="1232" y2="384" />
+	<line stroke="black" stroke-opacity="1" x1="1154" y1="392" x2="1232" y2="392" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1117" y="471" width="3" height="33" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1047" y="501" width="73" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1043" y="467" width="74" height="34" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1080" y="477">GS_Dungeon</text>
+	<line stroke="black" stroke-opacity="1" x1="1043" y1="485" x2="1117" y2="485" />
+	<line stroke="black" stroke-opacity="1" x1="1043" y1="493" x2="1117" y2="493" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1520" y="542" width="3" height="125" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1274" y="664" width="249" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1270" y="538" width="250" height="126" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="1395" y="548">&lt;&lt;interface&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1395" y="566">ICommand</text>
+	<line stroke="black" stroke-opacity="1" x1="1270" y1="574" x2="1520" y2="574" />
+	<line stroke="black" stroke-opacity="1" x1="1270" y1="582" x2="1520" y2="582" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="1274" y="592">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1286" y="592">execute(cmd_type : enum, data : string) : bool</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="1274" y="608">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1286" y="608">getPrefix() : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="1274" y="624">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1286" y="624">getArgs() : int</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="1274" y="640">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1286" y="640">valid() : bool</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="1274" y="656">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1286" y="656">getHelpDesc() : string</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="681" y="140" width="3" height="245" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="457" y="382" width="227" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="453" y="136" width="228" height="246" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="567" y="146">GameStateManager</text>
+	<line stroke="black" stroke-opacity="1" x1="453" y1="154" x2="681" y2="154" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="164">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-decoration="underline" x="469" y="164">INSTANCE : GameStateManager</text>
+	<line stroke="black" stroke-opacity="1" x1="453" y1="172" x2="681" y2="172" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="182">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="182">initialize() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="198">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="198">initState() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="214">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="214">resumeState() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="230">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="230">changeState(state : IGameState) : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="246">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="246">playerCreated() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="262">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="262">enterDungeon(dungeon : Dungeon) : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="278">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="278">exitDungeon() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="294">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="294">killPlayer() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="310">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-decoration="underline" x="469" y="310">getInstance() : GameStateManager</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="326">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="326">finalKillPlayer() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="342">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="342">revivePlayer() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="358">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="358">openInventory() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="457" y="374">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="469" y="374">closeInventory() : void</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="943" y="486" width="3" height="33" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="851" y="516" width="95" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="847" y="482" width="96" height="34" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="895" y="492">GS_DeathScreen</text>
+	<line stroke="black" stroke-opacity="1" x1="847" y1="500" x2="943" y2="500" />
+	<line stroke="black" stroke-opacity="1" x1="847" y1="508" x2="943" y2="508" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1024" y="153" width="3" height="221" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="788" y="371" width="239" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="784" y="149" width="240" height="222" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="904" y="159">&lt;&lt;interface&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="904" y="177">IGameState</text>
+	<line stroke="black" stroke-opacity="1" x1="784" y1="185" x2="1024" y2="185" />
+	<line stroke="black" stroke-opacity="1" x1="784" y1="193" x2="1024" y2="193" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="203">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="203">onStateStart() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="219">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="219">onStateResume() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="235">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="235">onPlayerCreated() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="251">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="251">onEnterDungeon(dungeon : Dungeon) : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="267">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="267">onExitDungeon() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="283">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="283">onPlayerDeath() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="299">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="299">onPlayerFinalDeath() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="315">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="315">onPlayerRevive() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="331">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="331">onInventoryOpen() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="347">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="347">onInventoryClose() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="788" y="363">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="800" y="363">getAvailableCommands() : ICommand</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1230" y="94" width="3" height="33" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1152" y="124" width="81" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1148" y="90" width="82" height="34" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1189" y="100">GS_MainMenu</text>
+	<line stroke="black" stroke-opacity="1" x1="1148" y1="108" x2="1230" y2="108" />
+	<line stroke="black" stroke-opacity="1" x1="1148" y1="116" x2="1230" y2="116" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1149" y1="248" x2="1033" y2="253" />
+	<line stroke="#000000" stroke-opacity="1" x1="1028" y1="254" x2="1034" y2="259" />
+	<line stroke="#000000" stroke-opacity="1" x1="1028" y1="254" x2="1033" y2="247" />
+	<line stroke="#000000" stroke-opacity="1" x1="1034" y1="259" x2="1033" y2="247" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1153" y1="367" x2="1033" y2="315" />
+	<line stroke="#000000" stroke-opacity="1" x1="1028" y1="313" x2="1031" y2="320" />
+	<line stroke="#000000" stroke-opacity="1" x1="1028" y1="313" x2="1035" y2="309" />
+	<line stroke="#000000" stroke-opacity="1" x1="1031" y1="320" x2="1035" y2="309" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1066" y1="466" x2="998" y2="379" />
+	<line stroke="#000000" stroke-opacity="1" x1="995" y1="375" x2="993" y2="383" />
+	<line stroke="#000000" stroke-opacity="1" x1="995" y1="375" x2="1003" y2="376" />
+	<line stroke="#000000" stroke-opacity="1" x1="993" y1="383" x2="1003" y2="376" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="897" y1="481" x2="899" y2="380" />
+	<line stroke="#000000" stroke-opacity="1" x1="900" y1="375" x2="893" y2="380" />
+	<line stroke="#000000" stroke-opacity="1" x1="900" y1="375" x2="905" y2="381" />
+	<line stroke="#000000" stroke-opacity="1" x1="893" y1="380" x2="905" y2="381" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1152" y1="128" x2="1033" y2="192" />
+	<line stroke="#000000" stroke-opacity="1" x1="1028" y1="195" x2="1036" y2="197" />
+	<line stroke="#000000" stroke-opacity="1" x1="1028" y1="195" x2="1030" y2="186" />
+	<line stroke="#000000" stroke-opacity="1" x1="1036" y1="197" x2="1030" y2="186" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="897" y1="520" x2="897" y2="602" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1269" y1="602" x2="1263" y2="596" />
+	<line stroke="black" stroke-opacity="1" x1="1269" y1="602" x2="1263" y2="608" />
+	<line stroke="black" stroke-opacity="1" x1="897" y1="602" x2="1269" y2="602" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1269" y1="554" x2="1265" y2="546" />
+	<line stroke="black" stroke-opacity="1" x1="1269" y1="554" x2="1261" y2="557" />
+	<line stroke="black" stroke-opacity="1" x1="1121" y1="500" x2="1269" y2="554" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="783" y1="261" x2="777" y2="255" />
+	<line stroke="black" stroke-opacity="1" x1="783" y1="261" x2="777" y2="267" />
+	<line stroke="black" stroke-opacity="1" x1="685" y1="261" x2="783" y2="261" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="685,261 691,255 697,261 691,267" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1335" y1="537" x2="1335" y2="528" />
+	<line stroke="black" stroke-opacity="1" x1="1335" y1="537" x2="1326" y2="536" />
+	<line stroke="black" stroke-opacity="1" x1="1212" y1="404" x2="1335" y2="537" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1234" y1="108" x2="1393" y2="108" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1396" y1="537" x2="1401" y2="530" />
+	<line stroke="black" stroke-opacity="1" x1="1396" y1="537" x2="1389" y2="531" />
+	<line stroke="black" stroke-opacity="1" x1="1393" y1="108" x2="1396" y2="537" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1255" y="616">*</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1157" y="594">available_commands</text>
+</g>
+</svg>

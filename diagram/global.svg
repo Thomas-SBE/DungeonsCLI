@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1473" height="997" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1412" y="368" width="3" height="61" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1168" y="426" width="247" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1164" y="364" width="248" height="62" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="1288" y="374">&lt;&lt;interface&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1288" y="392">IObserver</text>
+	<line stroke="black" stroke-opacity="1" x1="1164" y1="400" x2="1412" y2="400" />
+	<line stroke="black" stroke-opacity="1" x1="1164" y1="408" x2="1412" y2="408" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="1168" y="418">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1180" y="418">onNotification(notification_type : enum) : void</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1076" y="209" width="3" height="93" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="764" y="299" width="315" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="760" y="205" width="316" height="94" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="918" y="215">&lt;&lt;interface&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="918" y="233">Dungeon</text>
+	<line stroke="black" stroke-opacity="1" x1="760" y1="241" x2="1076" y2="241" />
+	<line stroke="black" stroke-opacity="1" x1="760" y1="249" x2="1076" y2="249" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="764" y="259">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="776" y="259">makeRoom(player : Player, room_num : int) : DungeonRoom</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="764" y="275">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="776" y="275">getName() : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="764" y="291">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="776" y="291">getRoomAmount() : int</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1388" y="542" width="3" height="61" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1186" y="600" width="205" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1182" y="538" width="206" height="62" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="1285" y="548">&lt;&lt;interface&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1285" y="566">IObservable</text>
+	<line stroke="black" stroke-opacity="1" x1="1182" y1="574" x2="1388" y2="574" />
+	<line stroke="black" stroke-opacity="1" x1="1182" y1="582" x2="1388" y2="582" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="1186" y="592">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1198" y="592">notify(notification_type : enum) : void</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1049" y="376" width="3" height="43" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="795" y="416" width="257" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="791" y="372" width="258" height="44" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="920" y="382">DungeonRoom</text>
+	<line stroke="black" stroke-opacity="1" x1="791" y1="390" x2="1049" y2="390" />
+	<line stroke="black" stroke-opacity="1" x1="791" y1="398" x2="1049" y2="398" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="795" y="408">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="807" y="408">attackEnemy(enemy_index : int, damage : float)</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1379" y="233" width="3" height="43" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1245" y="273" width="137" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="1241" y="229" width="138" height="44" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1310" y="239">RoomData</text>
+	<line stroke="black" stroke-opacity="1" x1="1241" y1="247" x2="1379" y2="247" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="1245" y="257">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1257" y="257">enemiesData : enum,int</text>
+	<line stroke="black" stroke-opacity="1" x1="1241" y1="265" x2="1379" y2="265" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="629" y="224" width="3" height="53" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="431" y="274" width="201" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="427" y="220" width="202" height="54" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="528" y="230">GlobalGameManager</text>
+	<line stroke="black" stroke-opacity="1" x1="427" y1="238" x2="629" y2="238" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="431" y="248">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-decoration="underline" x="443" y="248">INSTANCE : GlobalGameManager</text>
+	<line stroke="black" stroke-opacity="1" x1="427" y1="256" x2="629" y2="256" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="431" y="266">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-decoration="underline" x="443" y="266">getInstance() : GlobalGameManager</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="626" y="533" width="3" height="85" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="438" y="615" width="191" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="434" y="529" width="192" height="86" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="530" y="539">Player</text>
+	<line stroke="black" stroke-opacity="1" x1="434" y1="547" x2="626" y2="547" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="438" y="557">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="450" y="557">experience : float</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="438" y="573">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="450" y="573">level : int</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="438" y="589">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="450" y="589">money : int</text>
+	<line stroke="black" stroke-opacity="1" x1="434" y1="597" x2="626" y2="597" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="438" y="607">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="450" y="607">equip(item : EquipmentItem) : bool</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1223" y="771" width="3" height="213" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="845" y="981" width="381" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="841" y="767" width="382" height="214" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="1032" y="777">GlobalUIM</text>
+	<line stroke="black" stroke-opacity="1" x1="841" y1="785" x2="1223" y2="785" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="795">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-decoration="underline" x="857" y="795">INSTANCE : GlobalUIM</text>
+	<line stroke="black" stroke-opacity="1" x1="841" y1="803" x2="1223" y2="803" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="813">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-decoration="underline" x="857" y="813">getInstance() : GlobalUIM</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="829">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="829">askInput(text : string) : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="845">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="845">askInlineInput(text : string) : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="861">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="861">progressBar(pcolor : string, scolor : string, float : alpha, int : size) : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="877">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="877">centeredText(text : string, size : int, fill : string) : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="893">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="893">filledText(text : string, size : int, fill : string) : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="909">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="909">displayClassList() : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="925">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="925">displayInventory(player : Player) : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="941">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="941">displayDungeonEntering(dungeon : Dungeon, room_number : int) : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="957">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="957">displayMainMenu(available_dungeons : Dungeon) : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="845" y="973">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="857" y="973">displayRoomState(allies : Entity, enemies : Entity) : void</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1240" y1="253" x2="1234" y2="247" />
+	<line stroke="black" stroke-opacity="1" x1="1240" y1="253" x2="1234" y2="259" />
+	<line stroke="black" stroke-opacity="1" x1="1080" y1="253" x2="1240" y2="253" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="531" y1="528" x2="536" y2="521" />
+	<line stroke="black" stroke-opacity="1" x1="531" y1="528" x2="524" y2="522" />
+	<line stroke="black" stroke-opacity="1" x1="530" y1="278" x2="531" y2="528" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="759" y1="251" x2="753" y2="244" />
+	<line stroke="black" stroke-opacity="1" x1="759" y1="251" x2="752" y2="256" />
+	<line stroke="black" stroke-opacity="1" x1="633" y1="250" x2="759" y2="251" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="918" y1="303" x2="912" y2="309" />
+	<line stroke="black" stroke-opacity="1" x1="918" y1="303" x2="924" y2="308" />
+	<line stroke="black" stroke-opacity="1" x1="919" y1="371" x2="918" y2="303" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="874" y1="371" x2="879" y2="364" />
+	<line stroke="black" stroke-opacity="1" x1="874" y1="371" x2="867" y2="365" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="873" y1="303" x2="874" y2="371" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="1289" y1="430" x2="1282" y2="435" />
+	<line stroke="black" stroke-opacity="1" x1="1289" y1="430" x2="1294" y2="436" />
+	<line stroke="black" stroke-opacity="1" x1="1287" y1="537" x2="1289" y2="430" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1053" y1="396" x2="1157" y2="396" />
+	<line stroke="#000000" stroke-opacity="1" x1="1163" y1="396" x2="1157" y2="390" />
+	<line stroke="#000000" stroke-opacity="1" x1="1163" y1="396" x2="1157" y2="402" />
+	<line stroke="#000000" stroke-opacity="1" x1="1157" y1="390" x2="1157" y2="402" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="219" x2="528" y2="175" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="528" y1="175" x2="1453" y2="175" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1453" y1="175" x2="1453" y2="396" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1453" y1="396" x2="1422" y2="396" />
+	<line stroke="#000000" stroke-opacity="1" x1="1416" y1="396" x2="1422" y2="402" />
+	<line stroke="#000000" stroke-opacity="1" x1="1416" y1="396" x2="1422" y2="390" />
+	<line stroke="#000000" stroke-opacity="1" x1="1422" y1="402" x2="1422" y2="390" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1045" y1="420" x2="1185" y2="533" />
+	<line stroke="#000000" stroke-opacity="1" x1="1190" y1="537" x2="1189" y2="528" />
+	<line stroke="#000000" stroke-opacity="1" x1="1190" y1="537" x2="1181" y2="537" />
+	<line stroke="#000000" stroke-opacity="1" x1="1189" y1="528" x2="1181" y2="537" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="1048" y="478" width="3" height="197" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="796" y="672" width="255" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="792" y="474" width="256" height="198" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="920" y="484">Entity</text>
+	<line stroke="black" stroke-opacity="1" x1="792" y1="492" x2="1048" y2="492" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="502">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="502">name : string</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="518">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="518">design : char</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="534">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="534">lifepoints : int</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="550">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="550">base_lifepoints : int</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="566">-</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="566">helmet : EquipmentItem</text>
+	<line stroke="black" stroke-opacity="1" x1="792" y1="574" x2="1048" y2="574" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="584">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="584">getRawAttackDamage() : float</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="600">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="600">getDamageOnEntity(raw_damage : float) : float</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="616">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="616">damage(damage_amount : float)</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="632">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="632">getStats() : Stats</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="648">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="648">heal(amount : int) : void</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" x="796" y="664">+</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="808" y="664">getAbilities() : IAbility</text>
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="630" y1="574" x2="785" y2="574" />
+	<line stroke="#000000" stroke-opacity="1" x1="791" y1="574" x2="785" y2="568" />
+	<line stroke="#000000" stroke-opacity="1" x1="791" y1="574" x2="785" y2="580" />
+	<line stroke="#000000" stroke-opacity="1" x1="785" y1="568" x2="785" y2="580" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="922" y1="473" x2="928" y2="467" />
+	<line stroke="black" stroke-opacity="1" x1="922" y1="473" x2="916" y2="467" />
+	<line stroke="black" stroke-opacity="1" x1="922" y1="420" x2="922" y2="473" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="1181" y1="572" x2="1058" y2="572" />
+	<line stroke="#000000" stroke-opacity="1" x1="1052" y1="572" x2="1058" y2="578" />
+	<line stroke="#000000" stroke-opacity="1" x1="1052" y1="572" x2="1058" y2="566" />
+	<line stroke="#000000" stroke-opacity="1" x1="1058" y1="578" x2="1058" y2="566" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="512" y="520">1</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="538" y="520">player</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1172" y="245">rooms_data</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1214" y="267">1..*</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="660" y="243">dungeonsRegistry</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="733" y="265">1..*</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="926" y="317">baseDungeon</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="900" y="317">1</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="928" y="465">enemies</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="892" y="465">1..*</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1293" y="445">subscribers</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="1269" y="445">*</text>
+</g>
+</svg>
